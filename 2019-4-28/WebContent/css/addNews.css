@@ -1,0 +1,96 @@
+/* CSS Document */
+.box{
+	width: 600px;
+	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	border:#d2dbe0 solid 1px;
+	border-radius: 10px;
+}
+.myform{
+	width: 500px;
+	height: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 26px;
+	background: #fefefe;
+}
+
+.mylogin{
+	display: inline-block;
+	width: 500px;
+	height: 70px;
+	border-radius: 13px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #f1f6f9;
+}
+.inputs{
+	width: 500px;
+	height: 32px;
+	margin-top: 14px;
+	margin-bottom: 18px;
+	border-radius: 5px;
+}
+.incontent{
+	width: 500px;
+	height: 150px;
+}
+.forget{
+	float: right;
+	color: #000000;
+	font-size: 12px;
+}
+
+.reg_btn{
+	margin-right: 15px;
+	width: 80px;
+	height: 32px;
+	float: right;
+	margin-top: 22px;
+	background: #a1d7ef;
+	cursor:pointer;
+	color: #feffff;
+	border-radius: 13px;
+}
+.log_btn{
+	margin-left: 15px;
+	width: 80px;
+	height: 32px;
+	float: left;
+	margin-top: 22px;
+	background: #a1d7ef;
+	cursor:pointer;
+	color: #feffff;
+	border-radius: 13px;
+}
+.ziti,.login2{
+	font-size: 16px;
+	font-family:"黑体";
+}
+.boxpw{
+	width: 340px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	border:#d2dbe0 solid 1px;
+	border-radius: 10px;
+}
+.btn_cancel{
+	
+	width: 80px;
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22px;
+	background: #a1d7ef;
+	cursor:pointer;
+	color: #feffff;
+	border-radius: 13px;
+}
+.user{
+	width: 600px;
+	height: 50px;
+}

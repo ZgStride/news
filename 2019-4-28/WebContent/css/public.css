@@ -1,0 +1,30 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ol,ul,li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clears{
+	clear: both;
+	line-height: 0;
+	height: 0;
+	overflow: hidden;
+	font-size: 0;
+}
+
+body{
+	font-family:Arial,Verdana,"Microsoft Yahei","simsun","黑体";
+}
+
+
+img{
+	border: none;
+}

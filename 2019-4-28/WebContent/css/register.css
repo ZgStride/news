@@ -1,0 +1,95 @@
+.box{
+    width: 500px;
+    height: 620px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    border:#d2dbe0 solid 1px;
+    border-radius: 10px;
+}
+.box1{
+	width: 250px;
+    height: 200px;
+	margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border:#d2dbe0 solid 1px;
+    border-radius: 10px;
+}
+.myform{
+    width: 400px;
+    height: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 26px;
+    background: #fefefe;
+}
+.myform1{
+    width: 200px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 26px;
+    background: #fefefe;
+}
+.td{
+	display: inline-block;
+	width: 80px;
+	height: 68px;
+	line-height: 68px;
+}
+.all{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+.allchoose{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.all2{
+    margin-left: 20px;
+}
+.all3{
+    margin-left: 30px;
+}
+.select{
+    text-align: center;
+    line-height: 30px;
+    width: 70px;
+    height: 30px;
+}
+.reg_btn{
+	float:right;
+    width: 80px;
+    height: 32px;
+    background: #a1d7ef;
+    cursor:pointer;
+    color: #feffff;
+    border-radius: 13px;
+}
+.back_btn{
+	float:left;
+	width: 80px;
+    height: 32px;
+    background: #a1d7ef;
+    cursor:pointer;
+    color: #feffff;
+    border-radius: 13px;
+}
+.last{
+    height: 64px;
+    padding-top: 20px;
+}
+
+.inputs{
+    display: inline-block;
+    width: 290px;
+    height: 32px;
+    margin-top: 14px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+.bg{
+	display: inline-block;
+    width: 80px;
+    height: 30px;
+    color:#fff;
+    background: #02B7EF;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.cloum{
+
+    text-align: center;
+    width: 700px;
+    height: 50px;
+    padding: 10px;
+}
+.inputs{
+    display: inline-block;
+    width: 150px;
+    height: 30px;    
+    margin-top: 14px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+.reg_btn{
+    width: 80px;
+    height: 30px;
+    margin-left:15px;
+    margin-top: 14px;
+    margin-bottom: 18px;
+    background: #a1d7ef;
+    cursor:pointer;
+    color: #feffff;
+    border-radius: 10px;
+}
+.selectuser{
+	 height: 32px;
+	 line-height: 32px;
+	 border: none;
+}
+.tab{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first,.last{
+	display: inline-block;
+	width: 70px; /* 首尾换页标签的宽 */
+	height: 32px; /* 首尾换页标签的高 */
+	background: #ebebeb; /* 首尾换页标签的背景色 */ 
+}
+
+.news_end{
+	width: 770px; /* 换页外表签宽 */
+	height: 98px;/* 换页外表签高 */
+	background: #f9f9f9; /* 换页外表签背景色 */
+	margin-right: auto;
+	margin-left: auto; /* 居中 */
+}
+.new_end{
+	width: 248px; /* 换页栏宽 */
+	height: 32px; /* 换页栏高 */
+	margin-right: auto;
+	margin-left: auto; /* 居中 */
+	padding-top:32px; /* 设置换页标签距离列表标签高度 */  	
+}
+.new_end li a{
+	float: left;/* 左浮动 */
+	line-height: 32px; /* 文字上下居中 */
+	text-align: center; /* 设置首尾换页标签的文字左右居中 */
+	display: block; /* 改变内敛标签设置宽高 */
+	color: #393939; /* 字体颜色 */
+	font-size: 14px; /* 字体大小 */
+	overflow: hidden; /* 超出隐藏 */
+}
+.new_end li :hover{
+	background: #3363d2; /* 鼠标控制背景色改变 */
+	color: #fff; /* 鼠标控制字体色改变 */
+}
+.check{
+	width: 700px;
+    height: 50px;
+    margin-right: auto;
+	margin-left: auto;
+}

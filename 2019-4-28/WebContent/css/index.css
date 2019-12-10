@@ -1,0 +1,247 @@
+.box{
+    width: 100%;
+    height: 800px;
+
+}
+.tab{
+    width: 110px;
+    height: 120px;
+    margin-left: 25%;
+    margin-top: 50%;
+}
+.left{
+    text-align: center;
+    width: 18%;
+    height: 100%;
+    background: #d9d9d9;
+    float: left;
+}
+.right{
+    width: 82%;
+    height: 100%;
+
+    float: right;
+}
+.top{
+    width: 100%;
+    height: 10%;
+    
+    float: right;
+}
+.content{
+    width: 100%;
+    height: 90%;
+    float: right;
+    border:none;
+}
+.all{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #3363d2;
+    margin-bottom: 20px;
+ }
+.all1{
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+    background: #3363d2;
+    color: #ececec;
+    border: 1px solid #3363d2;
+    margin-bottom: 20px;
+}
+.num{
+	width:200px;
+	display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    height:30px;
+    margin-left:75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Document */
+.new{
+    width: 64%; /* 宽 */
+    height: 85px; /* 高 */
+    margin-left: auto;
+    margin-right: auto; /* 居中 */
+
+}
+
+.new_logo{
+    font-size: 24px; /* 字体大小 */
+    padding-top: 44px; /* 控制字体到顶部的高度 */
+    color: #333; /* 字体颜色 */
+}
+
+.new_logo:before{
+    content: "";
+    display: inline-block;/* before伪类格式 */
+    width: 5px; /* 图标的宽 */
+    height:24px; /* 图标的高 */
+    margin-right: 14px;/* 图标与字体间的间隔 */
+    background: #3363d2;/* 图标颜色 */
+}
+
+.new_list{
+    width: 100%;/* 新闻列表的宽 */
+    height: 400px; /* 新闻列表的高 */
+    padding-top: 24px;/* 调节间距 */
+    margin-left: auto;
+    margin-right: auto;/* 居中 */
+    background: #f9f9f9;/* 新闻列表的背景色 */
+
+}
+
+.new_list>li{
+    width: 634px; /* 单行列表宽 */
+    height: 38px; /* 单行列表高 */
+    border-bottom: 1px #d9d9d9 dashed; /* 下边框虚线 */
+    margin-left: auto;
+    margin-right: auto;/* 居中*/
+
+}
+
+.new_list a{
+    color: #404040; /* 单行字体颜色 */
+    display: inline-block; /* 用于设置宽高 */
+    font-size: 14px; /* 单行文字字体大小 */
+    width: 400px; /* 文字宽 */
+    height: 38px; /* 文字高 */
+    line-height: 38px; /* 文字上下居中 */
+    overflow: hidden; /* 超出隐藏 */
+    white-space: nowrap; /* 强制内容一行 */
+    text-overflow: ellipsis; /* 超出文字表示为省略号 */
+}
+
+.new_list :hover a{
+    transform: scale(1.03,1.03); /* 字体放大效果 */
+    color: #02B7EF; /* 字体颜色改变效果 */
+}
+
+.new_list span{
+    color: #404040; /* 日期文字颜色 */
+    font-size: 12px; /* 日期文字大小 */
+    width: 72px; /* 日期宽 */
+    height: 38px; /* 日期高 */
+    float: right; /* 右浮动*/
+    line-height: 38px; /* 文字上下居中 */
+}
+
+.new_list>li:before{
+    content:"";
+    display: inline-block; /* before 使用格式 */
+    width: 12px; /* 图标宽 */
+    height: 12px; /* 图标高 */
+    margin-bottom: 14px;
+    background: url(../images/list_picture.png);/* 图标插入 */
+}
+
+.news_end{
+    width: 100%; /* 换页外表签宽 */
+    height: 98px;/* 换页外表签高 */
+    background: #f9f9f9; /* 换页外表签背景色 */
+    margin-right: auto;
+    margin-left: auto; /* 居中 */
+}
+
+.new_end{
+    width: 248px; /* 换页栏宽 */
+    height: 32px; /* 换页栏高 */
+    margin-right: auto;
+    margin-left: auto; /* 居中 */
+    padding-top:32px; /* 设置换页标签距离列表标签高度 */
+}
+
+.new_end li a{
+    float: left;/* 左浮动 */
+    line-height: 32px; /* 文字上下居中 */
+    text-align: center; /* 设置首尾换页标签的文字左右居中 */
+    display: block; /* 改变内敛标签设置宽高 */
+    color: #393939; /* 字体颜色 */
+    font-size: 14px; /* 字体大小 */
+    overflow: hidden; /* 超出隐藏 */
+}
+
+.new_end li :hover{
+    background: #3363d2; /* 鼠标控制背景色改变 */
+    color: #fff; /* 鼠标控制字体色改变 */
+}
+
+.first,.last{
+    width: 70px; /* 首尾换页标签的宽 */
+    height: 32px; /* 首尾换页标签的高 */
+    background: #ebebeb; /* 首尾换页标签的背景色 */
+}
+
+.one,.two,.three{
+    width: 30px; /* 中间换页标签的宽 */
+    height: 32px; /* 中间换页标签的高 */
+    background: #ebebeb; /* 中间换页标签的背景色 */
+}
+
+.one,.three{
+    margin-left: 4px;
+    margin-right: 4px; /* 设置换页标签间的间距 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
